@@ -1,6 +1,6 @@
-from flask import Blueprint, render_template, request, url_for, g, flash
+from flask import Blueprint, render_template
 
-from pybo.models import Question, Answer
+from pybo.models import Question
 
 bp = Blueprint('question', __name__, url_prefix='/question')
 
