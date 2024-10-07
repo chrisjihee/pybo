@@ -1,13 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="flask" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <configuration default="false" name="Flask (pybo)" type="Python.FlaskServer">
     <module name="pybo" />
+    <option name="target" value="pybo" />
+    <option name="targetType" value="PYTHON" />
     <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
-    <envs>
-      <env name="PYTHONUNBUFFERED" value="1" />
-      <env name="FLASK_APP" value="pybo" />
-    </envs>
     <option name="SDK_HOME" value="" />
     <option name="SDK_NAME" value="pybo" />
     <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
@@ -15,13 +13,7 @@
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <option name="SCRIPT_NAME" value="flask" />
-    <option name="PARAMETERS" value="run" />
-    <option name="SHOW_COMMAND_LINE" value="false" />
-    <option name="EMULATE_TERMINAL" value="false" />
-    <option name="MODULE_MODE" value="true" />
-    <option name="REDIRECT_INPUT" value="false" />
-    <option name="INPUT_FILE" value="" />
+    <option name="launchJavascriptDebuger" value="false" />
     <method v="2" />
   </configuration>
 </component>

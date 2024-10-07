@@ -11,6 +11,7 @@ migrate = Migrate()
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
+    app.template_folder = config.TEMPLATE_FOLDER
 
     # ORM
     db.init_app(app)
@@ -18,7 +19,8 @@ def create_app():
     from . import models
 
     # Blueprint
-    from .views import main_views
+    from .views import main_views, question_views
     app.register_blueprint(main_views.bp)
+    app.register_blueprint(question_views.bp)
 
     return app

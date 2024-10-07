@@ -1,4 +1,4 @@
-from app import db
+from pybo import db
 
 
 class Question(db.Model):
