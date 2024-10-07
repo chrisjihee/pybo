@@ -11,6 +11,7 @@ migrate = Migrate()
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
+    app.static_folder = config.STATIC_FOLDER
     app.template_folder = config.TEMPLATE_FOLDER
 
     # ORM
