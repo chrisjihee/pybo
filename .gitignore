@@ -6,7 +6,7 @@
 
 # Configuration on local environment
 config/local*.yaml
-test.ipynb
+test_model.ipynb
 
 # MacBook
 .DS_Store
@@ -124,4 +124,6 @@ venv.bak/
 dmypy.json
 
 # custom
+migrations/
 chrisbase/
+*.db
